@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+{% for message in messages %}
+    <a>{{message}}</a>
+{% endfor %}
+<form action="sendmessage">
+    <a>Type here:</a></br>
+    <textarea name="message"></textarea>
+    <input type="submit" value="Send"/>
+</form>
+
+</body>
+</html>
